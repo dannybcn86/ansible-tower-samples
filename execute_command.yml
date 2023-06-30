@@ -3,5 +3,5 @@
   tasks:
     - name: Execute command ls
       command: ls -lath
-      debug:
+    - debug:
         msg: "Hello World!"
