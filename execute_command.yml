@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: {{ hosts }}
+  hosts: all
   tasks:
     - name: Execute command ls
       command: ls -lath
