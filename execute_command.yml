@@ -3,5 +3,6 @@
   tasks:
     - name: Execute command ls
       command: ls -lath
+      register: resultado
     - debug:
-        msg: "Hello World!"
+        msg: {{ resultado }}
