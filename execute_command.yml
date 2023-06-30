@@ -5,4 +5,4 @@
       command: ls -lath
       register: resultado
     - debug:
-        msg: {{ resultado }}
+        var: resultado
